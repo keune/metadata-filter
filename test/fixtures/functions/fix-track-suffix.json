@@ -52,6 +52,6 @@
   {
     "description": "should remove \"- Original\" sufix",
     "funcParameter": "Track Title - Original",
-    "expectedValue": "Track Title "
+    "expectedValue": "Track Title"
   }
 ]

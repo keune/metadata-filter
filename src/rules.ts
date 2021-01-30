@@ -188,7 +188,7 @@ export const SUFFIX_FILTER_RULES: FilterRule[] = [
 	},
 	{ source: /-\s(Remix|VIP)$/i, target: '($1)' },
 	// Remove "- Original" suffix
-	{ source: /-\sOriginal$/i, target: '' },
+	{ source: /\s-\sOriginal$/i, target: '' },
 ];
 
 export const PARODY_FILTER_RULES: FilterRule[] = [
