@@ -162,22 +162,22 @@ export const NORMALIZE_FEATURE_FILTER_RULES = [
  */
 export const VERSION_FILTER_RULES: FilterRule[] = [
 	// Love Will Come To You (Album Version)
-	{ source: /[([]Album Version[)\]]$/, target: '' },
+	{ source: /\s[([]Album Version[)\]]$/, target: '' },
 	// I Melt With You (Rerecorded)
 	// When I Need You [Re-Recorded]
-	{ source: /[([]Re-?recorded[)\]]$/, target: '' },
+	{ source: /\s[([]Re-?recorded[)\]]$/, target: '' },
 	// Your Cheatin' Heart (Single Version)
-	{ source: /[([]Single Version[)\]]$/, target: '' },
+	{ source: /\s[([]Single Version[)\]]$/, target: '' },
 	// All Over Now (Edit)
-	{ source: /[([]Edit[)\]]$/, target: '' },
+	{ source: /\s[([]Edit[)\]]$/, target: '' },
 	// (I Can't Get No) Satisfaction - Mono Version
-	{ source: /-\sMono Version$/, target: '' },
+	{ source: /\s-\sMono Version$/, target: '' },
 	// Ruby Tuesday - Stereo Version
-	{ source: /-\sStereo Version$/, target: '' },
+	{ source: /\s-\sStereo Version$/, target: '' },
 	// Pure McCartney (Deluxe Edition)
-	{ source: /\(Deluxe Edition\)$/, target: '' },
+	{ source: /\s\(Deluxe Edition\)$/, target: '' },
 	// 6 Foot 7 Foot (Explicit Version)
-	{ source: /[([]Explicit Version[)\]]/i, target: '' },
+	{ source: /\s[([]Explicit Version[)\]]/i, target: '' },
 ];
 
 export const SUFFIX_FILTER_RULES: FilterRule[] = [
