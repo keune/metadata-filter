@@ -97,39 +97,39 @@ export const TRIM_SYMBOLS_FILTER_RULES: FilterRule[] = [
  */
 export const REMASTERED_FILTER_RULES: FilterRule[] = [
 	// Here Comes The Sun - Remastered
-	{ source: /-\sRemastered$/, target: '' },
+	{ source: /\s-\sRemastered$/, target: '' },
 	// Hey Jude - Remastered 2015
-	{ source: /-\sRemastered\s\d+$/, target: '' },
+	{ source: /\s-\sRemastered\s\d+$/, target: '' },
 	// Let It Be (Remastered 2009)
 	// Red Rain (Remaster 2012)
-	{ source: /\(Remaster(ed)?\s\d+\)$/, target: '' },
+	{ source: /\s\(Remaster(ed)?\s\d+\)$/, target: '' },
 	// Pigs On The Wing (Part One) [2011 - Remaster]
-	{ source: /\[\d+\s-\sRemaster\]$/, target: '' },
+	{ source: /\s\[\d+\s-\sRemaster\]$/, target: '' },
 	// Comfortably Numb (2011 - Remaster)
 	// Dancing Days (2012 Remaster)
-	{ source: /\(\d+(\s-)?\sRemaster\)$/, target: '' },
+	{ source: /\s\(\d+(\s-)?\sRemaster\)$/, target: '' },
 	// Outside The Wall - 2011 - Remaster
 	// China Grove - 2006 Remaster
-	{ source: /-\s\d+(\s-)?\sRemaster$/, target: '' },
+	{ source: /\s-\s\d+(\s-)?\sRemaster$/, target: '' },
 	// Learning To Fly - 2001 Digital Remaster
-	{ source: /-\s\d+\s.+?\sRemaster$/, target: '' },
+	{ source: /\s-\s\d+\s.+?\sRemaster$/, target: '' },
 	// Your Possible Pasts - 2011 Remastered Version
-	{ source: /-\s\d+\sRemastered Version$/, target: '' },
+	{ source: /\s-\s\d+\sRemastered Version$/, target: '' },
 	// Roll Over Beethoven (Live / Remastered)
-	{ source: /\(Live\s\/\sRemastered\)$/i, target: '' },
+	{ source: /\s\(Live\s\/\sRemastered\)$/i, target: '' },
 	// Ticket To Ride - Live / Remastered
-	{ source: /-\sLive\s\/\sRemastered$/, target: '' },
+	{ source: /\s-\sLive\s\/\sRemastered$/, target: '' },
 	// Mothership (Remastered)
 	// How The West Was Won [Remastered]
-	{ source: /[([]Remastered[)\]]$/, target: '' },
+	{ source: /\s[([]Remastered[)\]]$/, target: '' },
 	// A Well Respected Man (2014 Remastered Version)
 	// A Well Respected Man [2014 Remastered Version]
-	{ source: /[([]\d{4} Re[Mm]astered Version[)\]]$/, target: '' },
+	{ source: /\s[([]\d{4} Re[Mm]astered Version[)\]]$/, target: '' },
 	// She Was Hot (2009 Re-Mastered Digital Version)
 	// She Was Hot (2009 Remastered Digital Version)
-	{ source: /[([]\d{4} Re-?[Mm]astered Digital Version[)\]]$/, target: '' },
+	{ source: /\s[([]\d{4} Re-?[Mm]astered Digital Version[)\]]$/, target: '' },
 	// Wish You Were Here [Remastered] (Remastered Version)
-	{ source: /\[Remastered\]\s\(Remastered\sVersion\)$/, target: '' },
+	{ source: /\s\[Remastered\]\s\(Remastered\sVersion\)$/, target: '' },
 ];
 
 export const LIVE_FILTER_RULES: FilterRule[] = [
